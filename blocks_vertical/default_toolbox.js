@@ -36,6 +36,12 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
           '<field name="NUM">10</field>' +
         '</shadow>' +
       '</value>' +
+    '</block>' + '<block type="motion_moveupdownsteps" id="motion_movesteps">' +
+      '<value name="STEPS">' +
+        '<shadow type="math_number">' +
+          '<field name="NUM">10</field>' +
+        '</shadow>' +
+      '</value>' +
     '</block>' +
     '<block type="motion_turnright" id="motion_turnright">' +
       '<value name="DEGREES">' +
@@ -205,6 +211,7 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
     '<block type="looks_costumenumbername" id="looks_costumenumbername"></block>' +
     '<block type="looks_backdropnumbername" id="looks_backdropnumbername"></block>' +
     '<block type="looks_size" id="looks_size"></block>' +
+  
   '</category>' +
   '<category name="%{BKY_CATEGORY_SOUND}" id="sound" colour="#D65CD6" secondaryColour="#BD42BD">' +
     '<block type="sound_play" id="sound_play">' +
@@ -253,6 +260,7 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
     '<block type="event_whenflagclicked" id="event_whenflagclicked"></block>' +
     '<block type="event_whenkeypressed" id="event_whenkeypressed">' +
     '</block>' +
+      '<block type="event_always" id="event_whenflagclicked"></block>' +
     '<block type="event_whenanything" id="event_whenanything">' +
     '</block>' +
     '<block type="event_whenthisspriteclicked" id="event_whenthisspriteclicked"></block>' +
@@ -299,6 +307,7 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
     '<block type="control_wait_until" id="control_wait_until"></block>' +
     '<block type="control_repeat_until" id="control_repeat_until"></block>' +
     '<block type="control_stop" id="control_stop"></block>' +
+      '<block type="control_repeat_until" id="control_run_as_sprite"></block>' +
     '<block type="control_start_as_clone" id="control_start_as_clone"></block>' +
     '<block type="control_create_clone_of" id="control_create_clone_of">' +
       '<value name="CLONE_OPTION">' +
@@ -310,6 +319,11 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
   '</category>' +
   '<category name="%{BKY_CATEGORY_SENSING}" id="sensing" colour="#4CBFE6" secondaryColour="#2E8EB8">' +
     '<block type="sensing_touchingobject" id="sensing_touchingobject">' +
+      '<value name="TOUCHINGOBJECTMENU">' +
+        '<shadow type="sensing_touchingobjectmenu"></shadow>' +
+      '</value>' +
+    '</block>' +
+  '<block type="sensing_objecttouchingobject" id="sensing_objecttouchingobject">' +
       '<value name="TOUCHINGOBJECTMENU">' +
         '<shadow type="sensing_touchingobjectmenu"></shadow>' +
       '</value>' +
@@ -451,6 +465,7 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
     '</block>' +
     '<block type="operator_and" id="operator_and"></block>' +
     '<block type="operator_or" id="operator_or"></block>' +
+      '<block type="operator_nor" id="operator_nor"></block>' +
     '<block type="operator_not" id="operator_not"></block>' +
     '<block type="operator_join" id="operator_join">' +
       '<value name="STRING1">' +
