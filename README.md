@@ -1,10 +1,10 @@
 # PenguinMod-Blocks
+block with [TurboWarp](https://turbowarp.org) then block out [PenguinMod](https://studio.penguinmod.com)   [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/DinosaurMod/dinosaurmod.github.io/)
+## Playgrounds
 
-<!-- ## Playgrounds
+ - **Vertical blocks**: https://turbowaarp.github.io/scratch-blocks/tests/vertical_playground_compressed.html -->
 
- - **Vertical blocks**: https://turbowa arp.github.io/scratch-blocks/tests/vertical_playground_compressed.html -->
 
-<!--
 #### Scratch Blocks is a library for building creative computing interfaces.
 [![Build Status](https://travis-ci.org/LLK/scratch-blocks.svg?branch=develop)](https://travis-ci.org/LLK/scratch-blocks)
 [![Dependency Status](https://david-dm.org/LLK/scratch-blocks.svg)](https://david-dm.org/LLK/scratch-blocks)
@@ -13,9 +13,10 @@
 
 ![](https://cloud.githubusercontent.com/assets/747641/15227351/c37c09da-1854-11e6-8dc7-9a298f2b1f01.jpg)
 
-<!--
+<--
 ## Introduction
-Scratch Blocks is a fork of Google's [Blockly](https://github.com/google/blockly) project that provides a design specification and codebase for building creative computing interfaces. Together with the [Scratch Virtual Machine (VM)](https://github.com/LLK/scratch-vm) this codebase allows for the rapid design and development of visual programming interfaces. Unlike [Blockly](https://github.com/google/blockly), Scratch Blocks does not use [code generators](https://developers.google.com/blockly/guides/configure/web/code-generators), but rather leverages the [Scratch Virtual Machine](https://github.com/LLK/scratch-vm) to create highly dynamic, interactive programming environments.
+Scratch Blocks 
+is a fork of Google's [Blockly](https://github.com/google/blockly) project that provides a design specification and codebase for building creative computing interfaces. Together with the [Scratch Virtual Machine (VM)](https://github.com/LLK/scratch-vm) this codebase allows for the rapid design and development of visual programming interfaces. Unlike [Blockly](https://github.com/google/blockly), Scratch Blocks does not use [code generators](https://developers.google.com/blockly/guides/configure/web/code-generators), but rather leverages the [Scratch Virtual Machine](https://github.com/LLK/scratch-vm) to create highly dynamic, interactive programming environments.
 
 *This project is in active development and should be considered a "developer preview" at this time.*
 
