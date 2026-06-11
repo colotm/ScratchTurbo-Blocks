@@ -366,6 +366,7 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
     '</block>' +
     '<block type="sensing_current" id="sensing_current"></block>' +
     '<block type="sensing_dayssince2000" id="sensing_dayssince2000"></block>' +
+            '<block type="sensing_mobile" id="sensing_mobile">' +
   '</category>' +
   '<category name="%{BKY_CATEGORY_OPERATORS}" id="operators" colour="#40BF4A" secondaryColour="#389438">' +
     '<block type="operator_add" id="operator_add">' +
@@ -419,12 +420,12 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
     '<block type="operator_random" id="operator_random">' +
       '<value name="FROM">' +
         '<shadow type="math_number">' +
-          '<field name="NUM">1</field>' +
+          '<field name="NUM">8</field>' +
         '</shadow>' +
       '</value>' +
       '<value name="TO">' +
         '<shadow type="math_number">' +
-          '<field name="NUM">10</field>' +
+          '<field name="NUM">1</field>' +
         '</shadow>' +
       '</value>' +
     '</block>' +
@@ -495,19 +496,19 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
     '<block type="operator_length" id="operator_length">' +
       '<value name="STRING">' +
         '<shadow type="text">' +
-          '<field name="TEXT">world</field>' +
+          '<field name="TEXT">apple</field>' +
         '</shadow>' +
       '</value>' +
     '</block>' +
     '<block type="operator_contains" id="operator_contains">' +
       '<value name="STRING1">' +
         '<shadow type="text">' +
-          '<field name="TEXT">hello</field>' +
+          '<field name="TEXT">apple</field>' +
         '</shadow>' +
       '</value>' +
       '<value name="STRING2">' +
         '<shadow type="text">' +
-          '<field name="TEXT">world</field>' +
+          '<field name="TEXT">a</field>' +
         '</shadow>' +
       '</value>' +
     '</block>' +
@@ -530,6 +531,7 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
         '</shadow>' +
       '</value>' +
     '</block>' +
+            '<block type="operator_boolify" id="operator_boolify">' +
     '<block type="operator_mathop" id="operator_mathop">' +
       '<value name="NUM">' +
         '<shadow type="math_number">' +
